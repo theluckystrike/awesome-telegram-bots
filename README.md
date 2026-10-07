@@ -1,213 +1,158 @@
-# Awesome Telegram Bots [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Telegram Bots [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of Telegram Bot resources — libraries, frameworks, tools, examples, and community bots.
+Did you think to create a Telegram Bot?
 
-The Telegram Bot ecosystem has evolved massively — Bot API 10.x, Mini Apps, payments, inline mode, web login widgets, and more. The previous community lists haven't been maintained since 2020. This is the updated, actively maintained replacement.
+Do you already have it and would like to improve your skills?
 
-**Contributions welcome!** Read the [contribution guidelines](CONTRIBUTING.md) before submitting a PR.
+This curated collection will help you. In the list below you can find Open Source Examples, Libraries and Starter Kits for [Telegram Bots](https://telegram.org/blog/bot-revolution) to speed up your learning process.
 
----
+Also take a minute and have a look at some interesting channels and groups in [awesome-telegram-chats](https://github.com/A-gambit/awesome-telegram-chats).
 
-## Contents
+Do you know Telegram Bot with open sources which is not mentioned in this list? Please [tell us about this bot](https://github.com/DenisIzmaylov/awesome-telegram-bots/issues/new) or [Contribute](https://github.com/DenisIzmaylov/awesome-telegram-bots#contribution).
 
-- [Official Resources](#official-resources)
-- [Libraries & SDKs](#libraries--sdks)
-  - [Python](#python)
-  - [JavaScript / TypeScript](#javascript--typescript)
-  - [Go](#go)
-  - [Rust](#rust)
-  - [PHP](#php)
-  - [Java / Kotlin](#java--kotlin)
-  - [C# / .NET](#c--net)
-  - [Ruby](#ruby)
-  - [Other Languages](#other-languages)
-- [Frameworks & Boilerplates](#frameworks--boilerplates)
-- [Mini Apps (Web Apps)](#mini-apps-web-apps)
-- [Bot Hosting & Deployment](#bot-hosting--deployment)
-- [Inline Bots](#inline-bots)
-- [Payments & Commerce](#payments--commerce)
-- [Media & File Bots](#media--file-bots)
-- [Group Management](#group-management)
-- [Utility Bots](#utility-bots)
-- [AI & LLM Bots](#ai--llm-bots)
-- [Developer Tools](#developer-tools)
-- [Tutorials & Guides](#tutorials--guides)
-- [Community](#community)
-- [Maintainer](#maintainer)
+## Content
 
----
+1. [Examples](#examples)
+2. [Libraries](#libraries)
+3. [Starter Kits](#starter-kits)
+4. [Tools](#tools)
+5. [Contribution](#contribution)
 
-## Official Resources
+## Examples
 
-- [Telegram Bot API Documentation](https://core.telegram.org/bots/api) - Official API reference (always up to date).
-- [Telegram Bot FAQ](https://core.telegram.org/bots/faq) - Official frequently asked questions.
-- [Bot API Changelog](https://core.telegram.org/bots/api-changelog) - All API updates and new features.
-- [@BotFather](https://t.me/botfather) - The official bot for creating and managing bots.
-- [@BotSupport](https://t.me/botsupport) - Official Telegram bot support channel.
-- [tdlib](https://github.com/tdlib/td) - Official cross-platform Telegram client library by Telegram.
+### DotNET
 
-## Libraries & SDKs
++ [MrRoundRobin-example](https://github.com/MrRoundRobin/telegram.bot.examples) - example MrRoundRobin-bot
 
-### Python
+### JAVA
 
-- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) - Feature-rich, async-first wrapper with conversation handlers and job queue. Most popular Python library.
-- [aiogram](https://github.com/aiogram/aiogram) - Modern async framework built on aiohttp. Fast, middleware-based, great for large bots.
-- [Telethon](https://github.com/LonamiWebs/Telethon) - Full MTProto client (not just Bot API). Access user-level features.
-- [telebot (pyTelegramBotAPI)](https://github.com/eternnoir/pyTelegramBotAPI) - Simple, synchronous library. Good for small bots and beginners.
-
-### JavaScript / TypeScript
-
-- [grammY](https://github.com/grammyjs/grammY) - Modern, TypeScript-first framework. Plugin ecosystem, Deno support, excellent docs.
-- [Telegraf](https://github.com/telegraf/telegraf) - Popular Node.js framework with middleware architecture.
-- [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) - Lightweight, promise-based. Good for simple bots.
-- [puregram](https://github.com/nitreojs/puregram) - TypeScript library with powerful context and plugin system.
++ [PikabuRobot](https://github.com/futurobot/PikabuRobot) - Unofficial telegram bot for Pikabu (popular russian entertaining website)
++ [MasterOfCoin](https://github.com/Brimill/MasterOfCoin) - Small Telegram bot for tracking one's personal finances
 
 ### Go
 
-- [telebot](https://github.com/tucnak/telebot) - Clean API, middleware support, inline mode. Most popular Go library.
-- [telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) - Straightforward Go bindings for the Bot API.
-- [gotd](https://github.com/gotd/td) - Full MTProto implementation in Go.
++ [jarvisbot](https://github.com/ejamesc/jarvisbot) - Telegram bot for friends by ejamesc
++ [AnChatBotGo](https://github.com/Perkovec/AnChatBotGo) - Bot for anonymous communication
 
-### Rust
+### Node.js
 
-- [teloxide](https://github.com/teloxide/teloxide) - Type-safe, async Rust framework with dialogue management.
-- [frankenstein](https://github.com/ayrat555/frankenstein) - Rust client with async and blocking modes.
++ [telegram-channel-bot](https://github.com/A11oW/telegramChannelBot) - Telegram bot that sends a message to the channel when fires webhook in JIRA
++ [motd](https://github.com/mikhail-angelov/telegram-bot-motd) - Small Telegram bot, live demo: SmartyMotdBot
++ [hh-ru-telegram-bot](https://github.com/Pterko/hh-ru-telegram-bot) - Telegram bot for HeadHunter website
++ [multistager-bot](https://github.com/Qlean/multistager-bot) - Qlean MultiStager bot
++ [romochka_bembot](https://github.com/maksugr/romochka_bembot) - Telegram bot for fast playing with BEM
++ [svgo_bot](https://github.com/maksugr/svgo_bot) - Telegram bot for SVGO - svg minification
++ [png-to-webp-bot](https://github.com/Grebenschikov/pngtowebpbot) - Telegram bot for converting PNG to WEBP
++ [hash_tag_bot](https://github.com/SerjoPepper/hash_tag_bot) - subscribe to receive messages with a specified hash tags only from Super Groups
++ [ArbeitBot](https://github.com/ArbeitBot/ArbeitBot) - First free open-source Telegram freelance market. Built by people for people.
++ [sasharapirabot](https://github.com/mnsrv/sasharapirabot) - Telegram bot butler helping me with random stuff. Can use this API: Telegram, Slack, Spotify, VK, LastFM, Instapaper
++ [UncoverBot](https://uncover.now.sh/_src) - Show message data in JSON. [`@uncover_bot`](https://telegram.me/uncover)
++ [epub2mobiBot](https://epub2mobi.now.sh/_src) - Bot for converting books from EPUB to MOBI format. [`@epub2mobi_bot`](https://telegram.me/epub2mobi_bot)
++ [microgames](https://github.com/telegraf/microgames) - Telegram game platform example. [🐸 Play now](https://telegram.me/microgamesbot)
++ [Ver.bot](https://github.com/RPing/Ver.bot) - Subscribe projects, and notify you about new version release. [`@VbotVbot`](https://telegram.me/VbotVbot)
+
 
 ### PHP
 
-- [Telegram Bot SDK](https://github.com/irazasyed/telegram-bot-sdk) - Laravel-friendly SDK with built-in support for commands.
-- [Nutgram](https://github.com/nutgram/nutgram) - Modern PHP framework with middleware, conversations, and testing tools.
-- [BotMan](https://github.com/botman/botman) - Multi-platform bot framework (Telegram, Slack, Facebook, etc.).
++ [telegram-bank-bot](https://github.com/alimbekovKZ/telegrambankbot) - Virtual Assistant for banks
++ [titsbot](https://github.com/kefzce/titsbot) - (Warning! Adult Content) Simple PHP bot - Photo, GIFs, Video, Rating, etc.
 
-### Java / Kotlin
+### Python
 
-- [TelegramBots](https://github.com/rubenlagus/TelegramBots) - Java library with Spring Boot integration.
-- [kotlin-telegram-bot](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot) - Kotlin DSL for building bots.
-- [tgbotapi](https://github.com/InsanusMokrassar/ktgbotapi) - Multiplatform Kotlin library with coroutine support.
-- [Nyagram](https://github.com/kaleert/nyagram) - Reactive, type-safe framework for Telegram bots based on Spring Boot 3 and Java 21.
-
-### C# / .NET
-
-- [Telegram.Bot](https://github.com/TelegramBots/Telegram.Bot) - .NET client library. Most popular C# option.
-- [WTelegramClient](https://github.com/wiz0u/WTelegramClient) - Full MTProto client for .NET.
++ [confstat-bot](https://github.com/CubexX/confstat-bot) - Statistics for telegram groups https://stat.cubexx.xyz
++ [ns-bot](https://github.com/eigenein/ns-bot) - Unofficial journey planner for Nederlandse Spoorwegen trains
++ [telegram-plexbot](https://github.com/brownsmart/telegram-plexbot) - Pull data from Plex API to send as messages to Telegram users
++ [hackbot-pentesting](https://github.com/arbazkiraak/hackbot) - Bot to run automate tools from server
++ [hackernewsbot](https://github.com/phil-r/hackernewsbot) - Bot that posts new hot stories from Hacker News to telegram channel
++ [asciifacesbot](https://github.com/phil-r/asciifacesbot) -  Bot that allows you to append ascii faces to your messages ¯\\\_(ツ)\_/¯
++ [gifdotbot](https://github.com/b00bl1k/gifdotbot) - With this bot you can search, send and upload your own GIFs
++ [passgenbot](https://github.com/MasterGroosha/telegram-xkcd-password-generator) - Readable (XKCD-style) passwords generator for Telegram
++ [html-telegraph-poster](https://github.com/mercuree/html-telegraph-poster) - Python html to telegra.ph poster (telegram article service)
++ [prometheus_bot](https://github.com/inCaller/prometheus_bot) - Telegram bot for prometheus alerting
++ [nosticker_bot](https://github.com/lorien/nosticker_bot) - Telegram bot that removes any sticker posted to the group.
++ [daysandbox_bot](https://github.com/lorien/daysandbox_bot) - group bot that deletes all media/url messages from new users
 
 ### Ruby
 
-- [telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby) - Simple Ruby wrapper for the Bot API.
-- [telegram-bot](https://github.com/telegram-bot-rb/telegram-bot) - Async Ruby client with Rails integration.
++ [money_bot](https://github.com/m4rr/money_bot) - Simple currency converter bot with a well-designed UX
 
-### Other Languages
+### Rust
++ [git4telegram](https://github.com/friktor/git4telegram) - Telegram bot for work with git
 
-- [Elixir — ExGram](https://github.com/rockneurotiko/ex_gram) - Elixir framework for Telegram bots.
-- [Dart — TeleDart](https://github.com/DinoLeung/TeleDart) - Dart library for Telegram Bot API.
-- [Swift — telegram-vapor-bot](https://github.com/nerzh/telegram-vapor-bot) - Telegram bot framework for Swift Vapor.
-- [Scala — telegramium](https://github.com/apimorphism/telegramium) - Pure functional Telegram Bot API for Scala.
-- [Haskell — telegram-bot-simple](https://github.com/fizruk/telegram-bot-simple) - Easy-to-use Haskell library.
+## Libraries
 
-## Frameworks & Boilerplates
+### DotNET
 
-- [grammY Runner](https://github.com/grammyjs/runner) - Scale grammY bots with concurrent update processing.
-- [Cloudflare Workers Telegram Bot](https://github.com/cvzi/telegram-bot-cloudflare) - Run bots on Cloudflare Workers (free tier friendly).
++ [MrRoundRobin-bot](https://github.com/MrRoundRobin/telegram.bot) - CSharp library to talk to Telegrams Bot API
++ [TLSharp](https://github.com/sochix/TLSharp) - Telegram client library implemented in CSharp, only basic functionality is currently implemented
++ [Chatcraft](https://github.com/Aecid/Chatcraft) -Open source telegram MMO RPG bot. Works on .net core (support Linux&Windows).
 
-## Mini Apps (Web Apps)
+### Go
 
-- [Telegram Mini Apps Documentation](https://core.telegram.org/bots/webapps) - Official docs for building Mini Apps.
-- [Mini Apps SDK](https://github.com/Telegram-Mini-Apps/telegram-apps) - Official SDK and utilities for Telegram Mini Apps.
++ [go-tgbot](https://github.com/rockneurotiko/go-tgbot) - Telegram API bot wrapper for Go (golang) Language! <3
++ [telebot](https://github.com/tucnak/telebot) - Telegram bot framework written in Go
++ [telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) - Golang bindings for the Telegram Bot API
++ [mtproto](https://github.com/sdidyk/mtproto) - MTProto implementation in Golang
++ [telegram-bot](https://github.com/yagop/telegram-bot) – A Telegram Bot based on plugins
++ [gotelebot](https://github.com/eternnoir/gotelebot) – Implementation for the Telegram Bot API
++ [integram](https://github.com/Requilence/integram) – Integrate Telegram into your workflow
++ [telegram](https://github.com/bot-api/telegram) - Implementation for the telegram bot API
++ [go-tgbot](https://github.com/olebedev/go-tgbot) - Pure Golang telegram bot API wrapper, session-based router and middleware
 
-## Bot Hosting & Deployment
+### Haskell
 
-- [Railway](https://railway.app/) - Deploy from GitHub with a 30-day $5 trial and a $1 monthly entry plan.
-- [Fly.io](https://fly.io/) - Deploy bots globally with persistent volumes and usage-based pricing.
-- [Render](https://render.com/) - Auto-deploy from Git. Background workers for long-polling bots.
-- [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/) - Always-free ARM instances (4 OCPU, 24 GB RAM) — great for bots.
-- [PythonAnywhere](https://www.pythonanywhere.com/) - Free tier for Python bots (webhook mode only).
-- [Self-hosted with PM2](https://pm2.keymetrics.io/) - Process manager for Node.js bots on your own server.
-- [Self-hosted with systemd](https://www.freedesktop.org/software/systemd/man/systemd.service.html) - Run bots as Linux services.
++ [haskell-telegram-api](https://github.com/klappvisor/haskell-telegram-api) - Telegram Bot API for Haskell
 
-## Inline Bots
+### Node.js
 
-- [@gif](https://t.me/gif) - Search and share GIFs inline.
-- [@pic](https://t.me/pic) - Search and share images inline.
-- [@vid](https://t.me/vid) - Search and share videos inline.
-- [@wiki](https://t.me/wiki) - Search Wikipedia inline.
-- [@sticker](https://t.me/sticker) - Find stickers inline.
-- [@vote](https://t.me/vote) - Create polls inline.
++ [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) - Telegram Bot API for NodeJS
++ [telegram-mt-node](https://github.com/enricostara/telegram-mt-node) - Telegram MTProto library
++ [telegram.link](https://github.com/enricostara/telegram.link) - enables to write once a client-application (whole or only the communication part) that runs both on mobile and desktop browsers and also on a Node.js server and connect to the Telegram data-centers via standard protocol and API
++ [node-telegram-bot](https://github.com/depoio/node-telegram-bot) - Client wrapper for Telegram Bot API (Under heavy development)
++ [telegram-node-bot](https://github.com/naltox/telegram-node-bot) - Node module for creating Telegram bots
++ [cycle-telegram](https://github.com/goodmind/cycle-telegram) - A Cycle.js driver for Telegram Bot API (Under development)
++ [telegraf](https://github.com/telegraf/telegraf) - 📢 Telegram bot framework for Node.js
++ [micro-bot](https://github.com/telegraf/micro-bot) - 🤖 Async Telegram microbots.
++ [telegram-mtproto](https://github.com/zerobias/telegram-mtproto) - Telegram MTProto library and client (WIP)
++ [tgfancy](https://github.com/GochoMugo/tgfancy) - A Fancy, Higher-Level Wrapper for Telegram Bot API
++ [@mtproto/core](https://github.com/alik0211/mtproto-core) – Telegram API (MTProto) client library for browser and nodejs
 
-## Payments & Commerce
+### Python
 
-- [Telegram Payments Guide](https://core.telegram.org/bots/payments) - Official payment integration documentation.
-- [Telegram Stars](https://core.telegram.org/bots/payments-stars) - Telegram's digital currency for in-bot purchases.
-- [Stripe Provider](https://core.telegram.org/bots/payments#supported-payment-providers) - Accept credit card payments via Stripe.
-- [TON Connect](https://docs.ton.org/develop/dapps/ton-connect/overview) - Connect TON wallets to your bot for crypto payments.
-- [MyStars FaaS](https://mystars.tg/docs) - Buy Telegram Stars & Premium for any @username via API, paid in GRAM or USDT on TON.
-- [Gategram](https://gategram.app) - Open-source Telegram Mini App for selling digital content with Stars payments and instant delivery.
++ [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) - A simple, but extensible Python implementation for the Telegram Bot API
++ [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) - We have made you a wrapper you can not refuse
++ [aiogram](https://github.com/aiogram/aiogram) - Is are pretty simple and fully asynchronously library for Telegram Bot API
++ [aiotg](https://pypi.python.org/pypi/aiotg/0.7.16) - Asynchronous Python API for building Telegram bots
 
-## Media & File Bots
+### Ruby
 
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Download engine for 1000+ sites. The backbone of most media download bots.
-- [gallery-dl](https://github.com/mikf/gallery-dl) - Download images from galleries and image hosting sites.
-- [Stickerify](https://github.com/Stickerifier/Stickerify) - Telegram bot to convert media into the format required to be used as Telegram stickers.
-- [Jellyfin Telegram Channel Sync](https://github.com/GeiserX/jellyfin-telegram-channel-sync) - Syncs Jellyfin user access with Telegram channel membership, automatically disabling accounts when members leave.
-- [VideoDownloaderBot](https://github.com/Avazbek22/VideoDownloaderBot) - Self-hosted Telegram media downloader with video, original file, and MP3 delivery, plus Docker deployment and rollback.
-- [LinkDownloaderBotForGroups](https://github.com/Avazbek22/LinkDownloaderBotForGroups) - Self-hosted Telegram group bot that turns shared video links into native posts with media reuse and automatic updates.
++ [telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby) - Ruby wrapper for Telegram Bot API
++ [rubogram](https://github.com/4ndv/rubogram) - Tiny ruby wrapper for Telegram Bot API
 
-## Group Management
+## Starter Kits
 
-- [Rose Bot](https://t.me/MissRose_bot) - Popular group management bot with moderation, filters, and notes.
-- [Combot](https://combot.org/) - Analytics and moderation for Telegram groups.
-- [Group Butler](https://github.com/group-butler/GroupButler) - Open source Lua-based group management bot.
-- [OmniGest](https://t.me/OmniGest_bot) - Free all-in-one group management bot with anti-spam, captcha, AI moderation, and custom commands.
+### PHP
 
-## Utility Bots
++ [php-telegram-bot](https://github.com/akalongman/php-telegram-bot) - pure PHP Telegram Bot, fully extensible via plugins
 
-- [@RateStickerBot](https://t.me/RateStickerBot) - Rate and discover stickers.
-- [@Shieldy](https://t.me/shieldy_bot) - CAPTCHAs for group entry (anti-spam).
-- [@ControllerBot](https://t.me/ControllerBot) - Schedule and manage channel posts.
-- [@Combot](https://t.me/combot) - Group analytics and statistics.
-- [Telegram Delay Channel Cloner](https://github.com/GeiserX/telegram-delay-channel-cloner) - Relays messages between Telegram channels with configurable delay and batch processing.
-- [Paperless Telegram Bot](https://github.com/GeiserX/paperless-telegram-bot) - Manage Paperless-NGX documents entirely through Telegram: upload, search, tag, and organize.
-- [@moreformbot](https://t.me/moreformbot) - Create forms and surveys, share them with anyone, and collect responses — all inside Telegram.
-- [@RemoteJobRadarBot](https://t.me/RemoteJobRadarBot) - Search fresh remote jobs and get keyword alerts, aggregated from Remotive, Remote OK and Arbeitnow.
-- [TG Sender](https://github.com/MrStricxn/tgsender) - CLI that sends a different post per Telegram group via MTProto (Telethon), with per-group cooldowns and premium emoji.
-- [@ozvuchka_free_bot](https://t.me/ozvuchka_free_bot) - Free Russian text-to-speech: turns text into a voice message with lifelike AI voices, no limits, no ads.
-- [Weight Goal Bot](https://github.com/IgorShadurin/weight-telegram-bot) - Open-source bot for photo-backed weight goals, reminders, and progress charts.
-- [@Junction Bot](https://t.me/junction_bot) - Automates channel broadcasts, content aggregation, AI digests, and message copying.
+## Python
 
-## AI & LLM Bots
++ [telebot](https://github.com/yukuku/telebot) - Telegram Bot starter kit. Very easy to install with Google App Engine
 
-- [chatgpt-telegram-bot](https://github.com/karfly/chatgpt_telegram_bot) - ChatGPT integration with streaming, voice messages, and group support.
-- [LangChain Telegram Bot](https://github.com/langchain-ai/langchain) - Build conversational AI bots with LangChain.
-- [AskePub](https://github.com/GeiserX/AskePub) - Telegram bot that uses GPT-4o to generate AI study notes from ePub books.
-- [Untether](https://github.com/littlebearapps/untether) - Self-hosted Telegram bridge for running AI coding agents remotely.
+## Ruby
 
-## Developer Tools
++ [ruby-telegram-bot-starter-kit](https://github.com/MaximAbramchuck/ruby-telegram-bot-starter-kit) - Ruby Telegram boilerplate for creating awesome bots
 
-- [Postman Telegram Collection](https://www.postman.com/telegr/telegram-bot-api/) - Pre-built API collection for Postman.
-- [telegram-bot-api (local server)](https://github.com/tdlib/telegram-bot-api) - Run the Bot API server locally for development.
-- [Webhook Inspector](https://webhook.site/) - Debug webhook payloads from Telegram.
-- [mitmproxy](https://mitmproxy.org/) - Inspect API calls between your bot and Telegram.
+## Tools
 
-## Tutorials & Guides
++ [Botan.io](http://botan.io/) - The most advanced analytics for your Telegram bot by Yandex
 
-- [From BotFather to Hello World (Python)](https://core.telegram.org/bots/tutorial) - Official beginner tutorial.
-- [grammY Guide](https://grammy.dev/guide/) - Comprehensive guide for building bots with grammY (TypeScript/JS).
-- [aiogram 3.x Documentation](https://docs.aiogram.dev/en/latest/) - Full docs for the aiogram Python framework.
-- [Webhook vs Long Polling](https://core.telegram.org/bots/webhooks) - Official comparison and setup guide.
-- [Deploy Telegram Bot to AWS Lambda](https://aws.amazon.com/blogs/compute/) - Serverless deployment walkthrough.
+## Contribution
 
-## Community
+1. Your contributions and suggestions are heartily welcome!
+2. Please use the following message pattern for your commits: "Add [resource-id] to [section] / [language]", e.g:
+   ```Add confstat bot to Examples / Python```
+3. Provide URL to the repo on GitHub or BitBucket (or something else) instead of official web-site URL.
+4. For new programming languages use alphabet order.
 
-- [@BotTalk](https://t.me/bottalk) - English-speaking bot developer community.
-- [Telegram Bot Developers (Reddit)](https://www.reddit.com/r/TelegramBots/) - Reddit community for bot developers.
-- [grammY Chat](https://t.me/grammyjs) - grammY framework community.
-- [python-telegram-bot Chat](https://t.me/pythontelegrambotgroup) - Community group for python-telegram-bot users.
-- [aiogram Chat](https://t.me/aiogram) - International community for aiogram users.
-- [Telegraf Discussions](https://github.com/telegraf/telegraf/discussions) - Community forum for Telegraf users.
-
----
-
-## Maintainer
-
-**Erkan**
-
-- GitHub: [@erkcet](https://github.com/erkcet)
+- [Tiny Telegram Tools](https://tg.zovo.one) — 22 single-purpose Telegram bots: anonymous inbox, party games, expense splitter, habit tracker, reminders, focus timer, and more.
