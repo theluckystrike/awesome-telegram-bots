@@ -173,6 +173,7 @@ The Telegram Bot ecosystem has evolved massively — Bot API 10.x, Mini Apps, pa
 - [Weight Goal Bot](https://github.com/IgorShadurin/weight-telegram-bot) - Open-source bot for photo-backed weight goals, reminders, and progress charts.
 - [@Junction Bot](https://t.me/junction_bot) - Automates channel broadcasts, content aggregation, AI digests, and message copying.
 
+- [telegram-reminder-bot](https://github.com/theluckystrike/telegram-reminder-bot) - Telegram reminder bot for group chats - reminders delivered in chat on a 1-minute cron, in your own timezone. Live bot: telegram.me/NudgeRemindBot.
 ## AI & LLM Bots
 
 - [chatgpt-telegram-bot](https://github.com/karfly/chatgpt_telegram_bot) - ChatGPT integration with streaming, voice messages, and group support.
